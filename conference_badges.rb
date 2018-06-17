@@ -12,11 +12,11 @@ badge_messages = []
 end
 
 def assign_rooms(array)
-rooms = 7
+rooms = 1
 room_assignments = []
 array.each do |speaker|
   room_assignments << "Hello, #{speaker}! You'll be assigned to room #{rooms}!"
-  rooms =-1
+  rooms +=1
 end
 return room_assignments
 end
